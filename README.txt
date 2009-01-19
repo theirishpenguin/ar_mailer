@@ -10,10 +10,6 @@ Documentation:
 
 http://seattlerb.org/ar_mailer
 
-and for forked additions
-
-http://github.com/adzap/ar_mailer/wikis
-
 Bugs:
 
 http://rubyforge.org/tracker/?func=add&group_id=1513&atid=5921
@@ -26,15 +22,7 @@ database for later delivery by a separate process, ar_sendmail.
 
 == Installing ar_mailer (forked)
 
-Install the gem from GitHub gems server:
-
-First, if you haven't already
-
-  $ sudo gem sources -a http://gems.github.com
-
-Then
-
-  $ sudo gem install adzap-ar_mailer
+Currently this fork can only be installed from source. Gem coming soon.
 
 See ActionMailer::ARMailer for instructions on converting to ARMailer.
 
