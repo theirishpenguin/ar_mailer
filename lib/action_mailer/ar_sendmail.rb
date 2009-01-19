@@ -440,8 +440,7 @@ end
     Net::SMTP.start smtp_settings[:address], smtp_settings[:port],
                     smtp_settings[:domain], user,
                     smtp_settings[:password],
-                    smtp_settings[:authentication],
-                    smtp_settings[:tls] do |smtp|
+                    smtp_settings[:authentication] do |smtp|
       @failed_auth_count = 0
       until emails.empty? do
         email = emails.shift
